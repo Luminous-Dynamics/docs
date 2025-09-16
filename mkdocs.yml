@@ -1,0 +1,164 @@
+site_name: Luminous Dynamics Documentation
+site_url: https://docs.luminousdynamics.org
+site_description: Documentation for Terra Lumina, Luminous Nix, and consciousness-first computing
+site_author: Luminous Dynamics
+
+repo_url: https://github.com/Luminous-Dynamics
+repo_name: Luminous-Dynamics
+
+theme:
+  name: material
+  custom_dir: overrides
+  logo: assets/logo.png
+  favicon: assets/favicon.png
+  
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - header.autohide
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+
+plugins:
+  - search:
+      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - minify:
+      minify_html: true
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/Luminous-Dynamics
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/luminous
+    - icon: fontawesome/solid/paper-plane
+      link: mailto:info@luminousdynamics.org
+  
+  analytics:
+    provider: plausible
+    domain: docs.luminousdynamics.org
+
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - manage
+
+nav:
+  - Home: index.md
+  
+  - Terra Lumina:
+    - terra-lumina/index.md
+    - Getting Started: terra-lumina/getting-started.md
+    - Investment Guide: terra-lumina/investment-guide.md
+    - Technical Specs: terra-lumina/technical.md
+    - Energy Projects: terra-lumina/projects.md
+    - API Reference: terra-lumina/api.md
+    - FAQ: terra-lumina/faq.md
+  
+  - Luminous Nix:
+    - luminous-nix/index.md
+    - Quick Start: luminous-nix/quickstart.md
+    - User Guide: luminous-nix/user-guide.md
+    - Advanced Features: luminous-nix/advanced.md
+    - Voice Interface: luminous-nix/voice.md
+    - Development: luminous-nix/development.md
+    - API Reference: luminous-nix/api.md
+    - FAQ: luminous-nix/faq.md
+  
+  - Philosophy:
+    - philosophy/index.md
+    - Consciousness-First: philosophy/consciousness-first.md
+    - Seven Harmonies: philosophy/seven-harmonies.md
+    - Sacred Trinity: philosophy/sacred-trinity.md
+    - Technology & Spirit: philosophy/technology-spirit.md
+  
+  - Community:
+    - community/index.md
+    - Contributing: community/contributing.md
+    - Code of Conduct: community/code-of-conduct.md
+    - Discussions: community/discussions.md
+    - Support: community/support.md
+  
+  - Blog:
+    - blog/index.md
+
+copyright: >
+  Copyright &copy; 2025 Luminous Dynamics –
+  <a href="#__consent">Change cookie settings</a>
