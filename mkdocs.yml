@@ -102,9 +102,9 @@ extra:
     - icon: fontawesome/solid/paper-plane
       link: mailto:info@luminousdynamics.org
   
-  analytics:
-    provider: plausible
-    domain: docs.luminousdynamics.org
+  # analytics:
+  #   provider: plausible
+  #   domain: docs.luminousdynamics.org
 
   consent:
     title: Cookie consent
