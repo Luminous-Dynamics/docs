@@ -88,4 +88,4 @@ We're building more than software - we're cultivating a movement toward technolo
 
 *"The best interface is no interface. The best technology is that which disappears through excellence."*
 
-**Made with 💜 by beings who believe in consciousness-first computing**
+**Made with 💜 by beings who believe in consciousness-first computing**<!-- Trigger rebuild Wed Sep 17 01:26:47 PM CDT 2025 -->
