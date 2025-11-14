@@ -104,26 +104,30 @@ Result: Enterprise-grade quality for $200/month
 - **Voice**: Whisper + Piper TTS
 - **Backend**: Native NixOS integration
 
-## 📊 Performance
+## 📊 Performance Benefits
+
+Experience significant time savings compared to traditional NixOS workflows:
 
 | Operation | Traditional | Luminous Nix | Improvement |
 |-----------|------------|--------------|-------------|
-| Find package | 30-60s | 2-5s | 10x faster |
-| Install software | 2-5 min | 30s | 5x faster |
-| Dev environment | 15-30 min | 1 min | 20x faster |
-| Fix error | 30+ min | 10s | 100x faster |
+| Find package | 30-60s | 2-5s | ~10x faster |
+| Install software | 2-5 min | 30s | ~5x faster |
+| Dev environment | 15-30 min | 1 min | ~20x faster |
+| Fix error | 30+ min | 10s | ~100x faster |
+
+*Performance varies based on system configuration and task complexity.*
 
 ## 🤝 Community
 
 ### Get Help
 - [GitHub Discussions](https://github.com/Luminous-Dynamics/luminous-nix/discussions)
 - [Discord](https://discord.gg/luminous)
-- Email: support@nixforhumanity.org
+- Email: support@luminousdynamics.org
 
 ### Contribute
-- [Development Guide](development.md)
 - [Report Issues](https://github.com/Luminous-Dynamics/luminous-nix/issues)
-- [Roadmap](https://github.com/Luminous-Dynamics/luminous-nix/projects)
+- [View Roadmap](https://github.com/Luminous-Dynamics/luminous-nix/projects)
+- Development guide coming soon
 
 ## 🎉 Success Stories
 
@@ -135,14 +139,15 @@ Result: Enterprise-grade quality for $200/month
 
 ## 📚 Resources
 
-- [User Guide](user-guide.md)
-- [Advanced Features](advanced.md)
-- [API Reference](api.md)
-- [FAQ](faq.md)
+Documentation is currently being expanded. Check back soon for:
+- User Guide
+- Advanced Features
+- API Reference
+- FAQ
 
 ---
 
 *"Making NixOS accessible to all beings through the power of natural conversation."*
 
-[Download Now](https://github.com/Luminous-Dynamics/luminous-nix/releases){ .md-button .md-button--primary }
-[Quick Start Guide](quickstart.md){ .md-button }
+[View on GitHub](https://github.com/Luminous-Dynamics/luminous-nix){ .md-button .md-button--primary }
+[Download Latest Release](https://github.com/Luminous-Dynamics/luminous-nix/releases){ .md-button }

@@ -73,7 +73,7 @@ Unlike traditional startups that extract value, Terra Lumina transitions to comm
 ### For Individual Investors
 - Invest in local renewable projects
 - Track performance in real-time
-- Earn stable returns (8-14% target)
+- Target returns of 8-14% (not guaranteed)
 - Build community wealth
 
 ### For Communities
@@ -96,15 +96,17 @@ Unlike traditional startups that extract value, Terra Lumina transitions to comm
 - **Analytics**: Real-time energy production data
 - **Security**: Bank-grade encryption
 
-## 📈 Financial Projections
+## 📈 Growth Projections
 
-| Year | Revenue | Projects | Users |
-|------|---------|----------|--------|
+| Year | Revenue Target | Projects | Users |
+|------|----------------|----------|--------|
 | 2025 | €2M | 10 | 10K |
 | 2026 | €20M | 50 | 100K |
 | 2027 | €100M | 200 | 1M |
 | 2028 | €300M | 500 | 5M |
 | 2029 | €500M | 1000 | 10M |
+
+*Projections based on market analysis and are subject to change.*
 
 ## 🤝 Get Involved
 
@@ -119,14 +121,15 @@ Contribute to our open-source platform
 
 ## 📚 Resources
 
-- [Investment Deck (PDF)](https://luminousdynamics.org/terra-lumina-deck.pdf)
-- [Technical Whitepaper](technical.md)
-- [API Documentation](api.md)
-- [FAQ](faq.md)
+Documentation is currently being expanded. Contact us for:
+- Investment Deck (PDF)
+- Technical Whitepaper
+- API Documentation
+- FAQ
 
 ---
 
 *"Where energy is abundant, humanity thrives."*
 
-[Invest Now](https://atlas.luminousdynamics.io){ .md-button .md-button--primary }
-[Learn More](investment-guide.md){ .md-button }
+[Explore Atlas](https://atlas.luminousdynamics.io){ .md-button .md-button--primary }
+[Contact Us](mailto:invest@luminousdynamics.org){ .md-button }
