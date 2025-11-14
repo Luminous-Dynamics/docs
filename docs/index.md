@@ -38,12 +38,12 @@ Let anyone invest $10 in local renewable energy projects. After investors earn r
 
 [Explore Investments](https://atlas.luminousdynamics.io){ .md-button .md-button--primary }
 
-### 🧘 [Sacred Computing](philosophy/consciousness-first.md)
+### 🧘 [Sacred Computing](philosophy/index.md)
 **"Breathe and Become"** - Democratizing Wisdom
 
 The philosophy binding it all - technology designed with consciousness-first principles. Interfaces that calm rather than agitate. Systems that respect attention rather than exploit it.
 
-[Coming Soon](#){ .md-button }
+[Explore the Philosophy](philosophy/index.md){ .md-button }
 
 ## 🌐 The Unified Field
 
@@ -102,7 +102,7 @@ Be part of the **Regenerative Exit** - investments that generate returns then tr
 ### For Consciousness Seekers
 Join a movement where **technology serves awakening** rather than addiction.
 
-[Coming Soon](#){ .md-button }
+[Explore Sacred Computing](philosophy/index.md){ .md-button }
 
 ## 📅 What's Next
 
