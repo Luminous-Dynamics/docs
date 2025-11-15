@@ -119,7 +119,8 @@ extra:
 
 nav:
   - Home: index.md
-  
+  - Getting Started: getting-started.md
+
   - Terra Lumina:
     - terra-lumina/index.md
     - Getting Started: terra-lumina/getting-started.md
@@ -128,7 +129,7 @@ nav:
     - Energy Projects: terra-lumina/projects.md
     - API Reference: terra-lumina/api.md
     - FAQ: terra-lumina/faq.md
-  
+
   - Luminous Nix:
     - luminous-nix/index.md
     - Quick Start: luminous-nix/quickstart.md
@@ -138,21 +139,27 @@ nav:
     - Development: luminous-nix/development.md
     - API Reference: luminous-nix/api.md
     - FAQ: luminous-nix/faq.md
-  
+
   - Philosophy:
     - philosophy/index.md
     - Consciousness-First: philosophy/consciousness-first.md
     - Seven Harmonies: philosophy/seven-harmonies.md
     - Sacred Trinity: philosophy/sacred-trinity.md
     - Technology & Spirit: philosophy/technology-spirit.md
-  
+
   - Community:
     - community/index.md
     - Contributing: community/contributing.md
     - Code of Conduct: community/code-of-conduct.md
     - Discussions: community/discussions.md
     - Support: community/support.md
-  
+
+  - Resources:
+    - Case Studies: case-studies.md
+    - Troubleshooting: troubleshooting.md
+    - Glossary: glossary.md
+    - Roadmap: roadmap.md
+
   - Blog:
     - blog/index.md
 
