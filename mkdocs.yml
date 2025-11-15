@@ -125,6 +125,8 @@ nav:
     - terra-lumina/index.md
     - Getting Started: terra-lumina/getting-started.md
     - Investment Guide: terra-lumina/investment-guide.md
+    - Migration from Traditional: terra-lumina/migration-from-traditional.md
+    - Comparisons: terra-lumina/comparisons.md
     - Technical Specs: terra-lumina/technical.md
     - Energy Projects: terra-lumina/projects.md
     - API Reference: terra-lumina/api.md
@@ -134,7 +136,10 @@ nav:
     - luminous-nix/index.md
     - Quick Start: luminous-nix/quickstart.md
     - User Guide: luminous-nix/user-guide.md
+    - Migration Guide: luminous-nix/migration-guide.md
+    - Comparisons: luminous-nix/comparisons.md
     - Advanced Features: luminous-nix/advanced.md
+    - Deployment Guide: luminous-nix/deployment.md
     - Voice Interface: luminous-nix/voice.md
     - Development: luminous-nix/development.md
     - API Reference: luminous-nix/api.md
@@ -155,7 +160,11 @@ nav:
     - Support: community/support.md
 
   - Resources:
+    - Documentation Map: documentation-map.md
+    - Decision Trees: decision-trees.md
+    - Comparison Matrices: comparison-matrices.md
     - Tutorials: tutorials.md
+    - Advanced Use Cases: advanced-use-cases.md
     - Quick Reference: quick-reference.md
     - Case Studies: case-studies.md
     - Troubleshooting: troubleshooting.md
