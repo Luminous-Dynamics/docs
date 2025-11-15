@@ -155,6 +155,7 @@ nav:
     - Support: community/support.md
 
   - Resources:
+    - Quick Reference: quick-reference.md
     - Case Studies: case-studies.md
     - Troubleshooting: troubleshooting.md
     - Glossary: glossary.md
