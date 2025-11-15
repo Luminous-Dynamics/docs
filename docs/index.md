@@ -234,6 +234,55 @@ Invest → Earn competitive returns → Transfer to community → Lasting local 
 
 ---
 
+## Find What You Need 🗺️
+
+**Overwhelmed by options? We've got you covered:**
+
+<div class="grid cards" markdown>
+
+-   :material-map:{ .lg .middle } **Documentation Map**
+
+    ---
+
+    Complete guide to all 47 pages. Navigate by role, task, or depth.
+
+    [:octicons-arrow-right-24: Explore the map](documentation-map.md)
+
+-   :material-family-tree:{ .lg .middle } **Decision Trees**
+
+    ---
+
+    Interactive flowcharts: Which product? Which migration strategy?
+
+    [:octicons-arrow-right-24: Get personalized guidance](decision-trees.md)
+
+-   :material-table-large:{ .lg .middle } **Comparison Matrices**
+
+    ---
+
+    Side-by-side comparisons with traditional tools and investments.
+
+    [:octicons-arrow-right-24: Compare at a glance](comparison-matrices.md)
+
+-   :material-book-open-page-variant:{ .lg .middle } **Tutorials & Guides**
+
+    ---
+
+    5 hands-on tutorials, migration guides, advanced use cases.
+
+    [:octicons-arrow-right-24: Learn by doing](tutorials.md)
+
+</div>
+
+**Quick links by what you're looking for:**
+
+- 🔀 **Migrating from existing tools?** → [Luminous Nix Migration](luminous-nix/migration-guide.md) | [Terra Lumina Migration](terra-lumina/migration-from-traditional.md)
+- ⚖️ **Comparing with alternatives?** → [Luminous Nix Comparisons](luminous-nix/comparisons.md) | [Terra Lumina Comparisons](terra-lumina/comparisons.md)
+- 🏢 **Enterprise deployment?** → [Deployment Guide](luminous-nix/deployment.md) | [Advanced Use Cases](advanced-use-cases.md)
+- ❓ **Have questions?** → [Luminous Nix FAQ](luminous-nix/faq.md) | [Terra Lumina FAQ](terra-lumina/faq.md) | [Troubleshooting](troubleshooting.md)
+
+---
+
 ## What Makes Us Different
 
 ### Open & Transparent
