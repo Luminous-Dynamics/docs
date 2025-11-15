@@ -2,69 +2,80 @@
 
 > *Consciousness-first technology insights, development stories, and the journey toward regenerative systems.*
 
+---
+
+## Latest Posts
+
+### November 2025
+
+**[The Revolution Has Begun: Luminous Nix v1.0 Launch](2025-11-11-luminous-nix-launch.md)**
+*November 11, 2025 · 8 min read*
+
+We released Luminous Nix v1.0 on 11/11/25 at 11:11 AM. Here's why this matters, what it means, and where we're going next.
+
+[:octicons-arrow-right-24: Read more](2025-11-11-luminous-nix-launch.md)
+
+---
+
+**[How We Built Enterprise Software for $200/Month](2025-11-13-sacred-trinity-story.md)**
+*November 13, 2025 · 12 min read*
+
+The complete story of the Sacred Trinity development model: Human + Claude AI + Local LLM. How we built Luminous Nix for $200/month instead of $4.2M, and what this means for independent developers.
+
+[:octicons-arrow-right-24: Read more](2025-11-13-sacred-trinity-story.md)
+
+---
+
+**[Why Regenerative Exit is the Future of Investing](2025-11-15-regenerative-exit-model.md)**
+*November 15, 2025 · 10 min read*
+
+Traditional exits extract value. We built a model where investors earn returns, then ownership transfers to communities. Here's why this works better for everyone.
+
+[:octicons-arrow-right-24: Read more](2025-11-15-regenerative-exit-model.md)
+
+---
+
+## By Topic
+
+**Philosophy & Values:**
+- [The Revolution Has Begun: Luminous Nix v1.0 Launch](2025-11-11-luminous-nix-launch.md)
+- [Why Regenerative Exit is the Future](2025-11-15-regenerative-exit-model.md)
+
+**Development & Technical:**
+- [How We Built Enterprise Software for $200/Month](2025-11-13-sacred-trinity-story.md)
+
+**Community & Impact:**
+- [Why Regenerative Exit is the Future](2025-11-15-regenerative-exit-model.md)
+
+---
+
 ## Coming Soon
 
-We're setting up our blog to share:
+**December 2025:**
+- Consciousness-First Design Patterns
+- Voice Interface Accessibility Deep Dive
+- Our First Terra Lumina Community Transition
 
-- **Development insights** from building with the Sacred Trinity model
-- **Philosophy explorations** of consciousness-first computing
-- **Project updates** from Luminous Nix and Terra Lumina
-- **Community stories** from users and contributors
-- **Technical deep-dives** into our architecture and approaches
-- **Investment insights** from renewable energy projects
+**January 2026:**
+- Natural Language Processing for Domain Tasks
+- Building with Local LLMs: A Practical Guide
+- One Year of Consciousness-First Computing
 
-## In the Meantime
+---
 
-**Follow our journey:**
+## Subscribe for Updates
 
-- 💬 [GitHub Discussions](https://github.com/orgs/Luminous-Dynamics/discussions) - Ongoing conversations
-- 🐦 [Twitter/X](https://twitter.com/LuminousDyn) - Quick updates
-- 💌 [Newsletter](https://luminousdynamics.org/newsletter) - Weekly insights
-- 📺 [Discord](https://discord.gg/luminous) - Real-time discussion
+Get notified when we publish new posts:
 
-## Planned First Posts
+📧 [Subscribe to newsletter](https://luminousdynamics.org/newsletter) · 💬 [Join Discord](https://discord.gg/luminous) · :fontawesome-brands-github: [Follow on GitHub](https://github.com/Luminous-Dynamics)
 
-### The Sacred Trinity Chronicles
+---
 
-How we built Luminous Nix v1.0 for $200/month instead of $4.2M:
+## Write for Us
 
-- **Part 1:** Vision and Architecture (coming Nov 2025)
-- **Part 2:** Challenges and Breakthroughs (coming Dec 2025)
-- **Part 3:** Lessons Learned and Best Practices (coming Jan 2026)
-
-### Consciousness-First Computing in Practice
-
-Deep dives into design decisions:
-
-- How we chose calm over engagement
-- Why local AI matters for sovereignty
-- Building features that teach, not just do
-- Measuring success without dark patterns
-
-### Terra Lumina Project Stories
-
-Behind the scenes of renewable energy investing:
-
-- Our first hydro project: from concept to community
-- Why we chose the Regenerative Exit model
-- Building trust in a skeptical market
-- Community ownership in practice
-
-### Technical Deep-Dives
-
-For developers and architects:
-
-- Natural language processing for domain-specific tasks
-- Building accessible TUIs with Textual
-- Local LLM integration patterns
-- Voice interface design for reliability
-
-## Want to Write for Us?
-
-We welcome guest posts that align with our values:
+We welcome guest posts aligned with consciousness-first values.
 
 **Topics we love:**
-
 - Consciousness-first technology examples
 - Alternative development models
 - Regenerative economics
@@ -73,50 +84,17 @@ We welcome guest posts that align with our values:
 - Calm technology patterns
 
 **Guidelines:**
-
 - 1,000-3,000 words
 - Practical and honest (not promotional)
 - Aligned with [consciousness-first principles](../philosophy/consciousness-first.md)
-- Original content (not published elsewhere)
+- Original content
 
 **Submit ideas:** blog@luminousdynamics.org
 
-## Subscribe for Updates
-
-Get notified when we publish new posts:
-
-📧 [Subscribe to our newsletter](https://luminousdynamics.org/newsletter)
-
 ---
 
-## Previous Talks & Presentations
+*\"Technology should amplify consciousness, not consume it.\"*
 
-While our blog is launching, you can explore our ideas through:
+**Building that future, one post at a time.** 💜
 
-### Luminous Nix
-
-- [GitHub README](https://github.com/Luminous-Dynamics/luminous-nix) - Project overview and philosophy
-- [Documentation](../luminous-nix/index.md) - Complete user guide
-
-### Terra Lumina
-
-- [Platform](https://atlas.luminousdynamics.io) - Live project atlas
-- [Documentation](../terra-lumina/index.md) - Investment guide
-
-### Philosophy
-
-- [Consciousness-First Computing](../philosophy/consciousness-first.md) - Core principles
-- [Sacred Trinity Model](../philosophy/sacred-trinity.md) - Development methodology
-- [Philosophy Overview](../philosophy/index.md) - Complete framework
-
----
-
-*"Technology should amplify consciousness, not consume it."*
-
-**We're building that future, one post at a time.** 💜
-
-*Last updated: November 14, 2025*
-
----
-
-**Want to discuss these topics?** [Join our community →](../community/index.md)
+[Back to Home](../index.md) | [Philosophy](../philosophy/index.md) | [Community](../community/index.md)
