@@ -53,6 +53,51 @@ Unlike traditional startups that extract value, Terra Lumina transitions to comm
 - **Years 5-7**: Transition preparation
 - **Year 7+**: Full community sovereignty
 
+```mermaid
+graph LR
+    subgraph "Years 0-3: Growth Phase"
+        A[💰 Investors] --> B[Terra Lumina<br/>Platform]
+        B --> C[🌞 Energy<br/>Projects]
+        C --> D[📈 Returns<br/>11-14% IRR]
+        D --> A
+    end
+
+    subgraph "Years 3-5: Transition Begins"
+        E[💰 Investors<br/>Partial Exit] --> F[🏘️ Community<br/>Participation]
+        F --> G[Shared<br/>Governance]
+    end
+
+    subgraph "Years 5-7: Preparation"
+        H[🏘️ Community<br/>Training] --> I[Governance<br/>Transfer]
+        I --> J[Infrastructure<br/>Handoff]
+    end
+
+    subgraph "Year 7+: Community Ownership"
+        K[🏘️ Community<br/>Owns Projects] --> L[🌍 Energy<br/>Sovereignty]
+        L --> M[💚 Local<br/>Prosperity]
+    end
+
+    B -.->|Gradual Transition| F
+    G -.-> H
+    J -.-> K
+
+    style A fill:#e1bee7
+    style B fill:#ce93d8
+    style C fill:#ba68c8
+    style F fill:#ab47bc
+    style K fill:#9c27b0
+    style L fill:#8e24aa
+```
+
+**The Journey:**
+
+1. **Investors earn returns** while projects grow (Years 0-3)
+2. **Community begins participating** in governance (Years 3-5)
+3. **Ownership gradually transfers** to local stakeholders (Years 5-7)
+4. **Full community sovereignty** achieved (Year 7+)
+
+Result: Investors get returns, communities get infrastructure ownership, everyone wins.
+
 ### Swiss Foundation Structure
 - Immutable mission via Swiss law
 - 30-40% tax efficiency

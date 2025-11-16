@@ -97,6 +97,51 @@ Built through revolutionary Human+AI collaboration:
 
 Result: Enterprise-grade quality for $200/month
 
+### System Architecture
+
+```mermaid
+graph TB
+    User[👤 User Input]
+    Voice[🎤 Voice Interface<br/>Whisper STT]
+    Text[⌨️ Text Interface<br/>ask-nix CLI]
+
+    User --> Voice
+    User --> Text
+
+    Voice --> NLP[🧠 Natural Language<br/>Processing Layer]
+    Text --> NLP
+
+    NLP --> Intent[Intent Recognition<br/>Ollama + Mistral/Llama]
+    Intent --> Safety[🛡️ Safety Checks<br/>Preview & Confirm]
+
+    Safety --> NixGen[📝 Nix Config<br/>Generator]
+    NixGen --> NixOS[💠 NixOS<br/>System Layer]
+
+    NixOS --> Result[✅ Result]
+    Result --> TUI[🎨 Textual TUI<br/>Feedback]
+    Result --> TTS[🔊 Text-to-Speech<br/>Piper TTS]
+
+    TUI --> User
+    TTS --> User
+
+    Safety -.->|Rollback| NixOS
+
+    style User fill:#e1bee7
+    style NLP fill:#ce93d8
+    style Safety fill:#ba68c8
+    style NixOS fill:#ab47bc
+    style Result fill:#9c27b0
+```
+
+**How it works:**
+
+1. **Input**: User speaks or types natural language command
+2. **Understanding**: Local AI models parse intent (offline-capable)
+3. **Safety**: Preview changes, ask for confirmation
+4. **Generation**: Create appropriate Nix configuration
+5. **Execution**: Apply changes through NixOS
+6. **Feedback**: Show results via beautiful TUI or voice
+
 ### Technical Stack
 - **Core**: Python 3.11+ with Poetry
 - **AI**: Ollama + Mistral/Llama models

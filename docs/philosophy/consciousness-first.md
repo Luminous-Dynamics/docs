@@ -33,6 +33,40 @@ This means creating systems that:
 
 ## The Five Pillars
 
+Every decision in consciousness-first computing flows from these five interconnected principles:
+
+```mermaid
+graph TD
+    Center[🧘 Human<br/>Consciousness]
+
+    Center --> P1[🎯 Respect<br/>Attention]
+    Center --> P2[⚡ Amplify<br/>Capability]
+    Center --> P3[🔍 Maintain<br/>Transparency]
+    Center --> P4[👑 Enable<br/>Sovereignty]
+    Center --> P5[💚 Serve<br/>Wellbeing]
+
+    P1 --> Practices1[No dark patterns<br/>Clear intentions<br/>Minimal interruptions]
+    P2 --> Practices2[Enable learning<br/>Reduce friction<br/>Portable skills]
+    P3 --> Practices3[Show your work<br/>Honest limitations<br/>Clear cause-effect]
+    P4 --> Practices4[Data ownership<br/>No lock-in<br/>Export freedom]
+    P5 --> Practices5[Ethical by default<br/>Regenerative design<br/>Community benefit]
+
+    style Center fill:#9c27b0,color:#fff
+    style P1 fill:#ba68c8,color:#fff
+    style P2 fill:#ba68c8,color:#fff
+    style P3 fill:#ba68c8,color:#fff
+    style P4 fill:#ba68c8,color:#fff
+    style P5 fill:#ba68c8,color:#fff
+```
+
+**The Pillars work together:**
+
+- **Respect Attention** ensures we don't waste users' most valuable resource
+- **Amplify Capability** makes users more powerful, not dependent
+- **Maintain Transparency** builds trust and enables informed decisions
+- **Enable Sovereignty** gives users full control and freedom
+- **Serve Wellbeing** ensures technology enhances life, not diminishes it
+
 ### 1. Respect Attention
 
 **Traditional approach**: Maximize time-on-platform, optimize for engagement

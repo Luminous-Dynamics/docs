@@ -32,6 +32,58 @@ The Sacred Trinity is a development methodology that combines three distinct int
   (Enterprise Quality)
 ```
 
+**Detailed Collaboration Flow:**
+
+```mermaid
+graph TB
+    Human[👤 Human<br/>Vision & Testing]
+
+    subgraph "Development Cycle"
+        Vision[💡 Define Vision<br/>& Requirements]
+        Claude[🤖 Claude<br/>Architecture & Code]
+        Local[🧠 Local LLM<br/>Domain Expertise]
+        Code[📝 Implementation]
+        Test[✅ Testing &<br/>Feedback]
+    end
+
+    Human --> Vision
+    Vision --> Claude
+
+    Claude -->|Architecture| Code
+    Claude -->|Questions| Local
+    Local -->|NixOS Expertise| Claude
+    Local -->|Validation| Code
+
+    Code --> Test
+    Test -->|Feedback| Human
+    Human -->|Iterate| Vision
+
+    subgraph "Result"
+        Product[✨ Enterprise Quality<br/>$200/month cost]
+    end
+
+    Test -->|Deploy| Product
+
+    style Human fill:#9c27b0,color:#fff
+    style Claude fill:#ba68c8,color:#fff
+    style Local fill:#ab47bc,color:#fff
+    style Code fill:#ce93d8
+    style Product fill:#e1bee7
+
+    classDef cycleNode fill:#f3e5f5
+    class Vision,Test cycleNode
+```
+
+**Key Interaction Patterns:**
+
+1. **Human → Claude**: "Build a voice interface for Luminous Nix"
+2. **Claude → Local LLM**: "What's the best way to integrate Whisper with NixOS?"
+3. **Local LLM → Claude**: Provides NixOS-specific implementation details
+4. **Claude → Human**: Shows implementation, explains decisions
+5. **Human → Claude**: Tests, provides feedback, iterates
+
+This creates a **feedback loop** where each intelligence amplifies the others.
+
 ### The Three Roles
 
 #### 1. 👤 Human: The Visionary
