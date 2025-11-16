@@ -14,14 +14,14 @@
 
 ## 📊 Documentation Stats
 
-- **47 comprehensive pages**
-- **~195,000 words** (equivalent to 2-3 books)
+- **50 comprehensive pages**
+- **~207,000 words** (equivalent to 2-3 books)
 - **5 hands-on tutorials**
 - **7 detailed case studies**
 - **3 substantive blog posts**
 - **100% coverage** - From beginner to enterprise
 
-**Last major update:** November 16, 2025 (Phase 10 complete)
+**Last major update:** November 16, 2025 (Phase 12 complete)
 
 ---
 
@@ -78,12 +78,15 @@ Join the movement for conscious technology.
 
 Comprehensive learning and reference materials.
 
-- [Documentation Map](docs/documentation-map.md) - Navigate all 47 pages
+- [Documentation Map](docs/documentation-map.md) - Navigate all 50 pages
 - [Decision Trees](docs/decision-trees.md) - Which product? Which strategy?
 - [Comparison Matrices](docs/comparison-matrices.md) - Visual comparisons
 - [Tutorials](docs/tutorials.md) - 5 hands-on tutorials
 - [Advanced Use Cases](docs/advanced-use-cases.md) - Real-world examples
 - [Quick Reference](docs/quick-reference.md) - Cheat sheets
+- [Printable Quick Reference](docs/printable-quick-reference.md) - Print-optimized PDF guide
+- [Keyboard Shortcuts & Tips](docs/keyboard-shortcuts.md) - Productivity shortcuts
+- [Presentation Template](docs/presentation-template.md) - Ready-to-use slide deck
 - [Case Studies](docs/case-studies.md) - 7 user success stories
 - [Troubleshooting](docs/troubleshooting.md) - Common issues solved
 - [Glossary](docs/glossary.md) - Terminology
