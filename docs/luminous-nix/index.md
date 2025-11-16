@@ -1,3 +1,8 @@
+---
+title: Luminous Nix - Natural Language Interface for NixOS
+description: Transform NixOS system management from complex configuration to natural conversation. Voice-enabled, AI-powered, safe by default. Talk to your computer in plain English.
+---
+
 # Luminous Nix - Natural Language for NixOS
 
 ## Making NixOS Accessible to Everyone

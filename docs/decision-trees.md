@@ -1,3 +1,8 @@
+---
+title: Decision Trees - Which Product? Which Strategy?
+description: Interactive flowcharts to help choose between Luminous Nix and Terra Lumina, select migration strategies, and determine investment approaches. Visual decision support with Mermaid diagrams.
+---
+
 # Decision Trees & Selection Guides
 
 **Interactive guides to help you make the right choices.**

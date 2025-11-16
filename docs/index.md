@@ -1,3 +1,8 @@
+---
+title: Luminous Dynamics - Consciousness-First Computing
+description: Technology that serves consciousness, not consumes it. Luminous Nix makes NixOS accessible through natural language. Terra Lumina enables renewable energy investment from $10 with community ownership.
+---
+
 # Welcome to Luminous Dynamics
 
 > *Technology that remembers it exists to serve consciousness, not consume it.*

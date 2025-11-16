@@ -1,3 +1,8 @@
+---
+title: Documentation Map - Navigate 50 Pages by Role, Task, or Depth
+description: Complete navigation guide for Luminous Dynamics docs. Find what you need by role (developer, investor, DevOps), task, or experience level. 50 pages, ~207,000 words of comprehensive guidance.
+---
+
 # Documentation Map
 
 **Complete guide to navigating Luminous Dynamics documentation.**

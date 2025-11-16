@@ -1,3 +1,8 @@
+---
+title: Consciousness-First Computing - Philosophy
+description: Design philosophy that places human consciousness at the center of technology. Five Pillars - Respect Attention, Amplify Capability, Maintain Transparency, Enable Sovereignty, Serve Wellbeing.
+---
+
 # Consciousness-First Computing
 
 > *What if we designed technology to amplify human consciousness rather than fragment it?*

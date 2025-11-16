@@ -1,3 +1,8 @@
+---
+title: Getting Started - Luminous Dynamics Documentation
+description: Quick start guide for Luminous Nix and Terra Lumina. Learn to use natural language for NixOS system management or invest in renewable energy projects from $10.
+---
+
 # Getting Started with Luminous Dynamics
 
 Welcome to Luminous Dynamics! This guide will help you understand our ecosystem and get started with our consciousness-first technology.

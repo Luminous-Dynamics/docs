@@ -1,3 +1,8 @@
+---
+title: Terra Lumina - Renewable Energy Investment Platform
+description: Invest in solar, wind, and hydro projects from $10. Earn 7-13% returns while supporting clean energy. Revolutionary regenerative exit model transfers ownership to communities after investor returns.
+---
+
 # Terra Lumina - Energy-Abundant Cities
 
 ## Transform Energy Infrastructure. Build Community Wealth.
