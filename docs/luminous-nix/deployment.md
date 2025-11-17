@@ -26,6 +26,31 @@ This guide covers enterprise-grade deployment of Luminous Nix for teams, organiz
 
 ## Deployment Architectures
 
+### Architecture Overview
+
+Choose your deployment pattern based on team size, security requirements, and scale:
+
+```mermaid
+graph TD
+    Start{{"Deployment<br/>Decision"}}
+
+    Start -->|Single User| Single["🖥️ Single User<br/>Simple & Private"]
+    Start -->|Small Team<br/>3-15 users| Team["👥 Team<br/>Shared Config"]
+    Start -->|Enterprise<br/>50+ users| Enterprise["🏢 Enterprise<br/>Central Management"]
+    Start -->|Multi-Region<br/>Global| Global["🌍 Global<br/>Federated"]
+
+    Single --> SingleDetails["Local LLM<br/>8GB RAM<br/>20GB Disk"]
+    Team --> TeamDetails["Shared Git<br/>Central LLM<br/>16GB RAM each"]
+    Enterprise --> EnterpriseDetails["Load Balancer<br/>HA Setup<br/>Monitoring"]
+    Global --> GlobalDetails["Regional Hubs<br/>Policy Sync<br/>Compliance"]
+
+    style Start fill:#9c27b0,color:#fff
+    style Single fill:#e1bee7
+    style Team fill:#ce93d8
+    style Enterprise fill:#ba68c8
+    style Global fill:#ab47bc
+```
+
 ### Single User Deployment (Development)
 
 **Use case:** Individual developer or sysadmin
@@ -46,6 +71,25 @@ This guide covers enterprise-grade deployment of Luminous Nix for teams, organiz
 │  │ (Ollama)  │ │
 │  └───────────┘ │
 └─────────────────┘
+```
+
+**Detailed Flow:**
+
+```mermaid
+graph LR
+    User[👤 User] -->|Natural Language| CLI[ask-nix CLI]
+    CLI -->|Intent| LN[Luminous Nix<br/>Engine]
+    LN -->|Query| LLM[Local LLM<br/>Ollama]
+    LLM -->|Response| LN
+    LN -->|Nix Commands| NixOS[NixOS System]
+    NixOS -->|Result| CLI
+    CLI -->|Feedback| User
+
+    style User fill:#e1bee7
+    style CLI fill:#ce93d8
+    style LN fill:#ba68c8
+    style LLM fill:#ab47bc
+    style NixOS fill:#9c27b0,color:#fff
 ```
 
 **Installation:**

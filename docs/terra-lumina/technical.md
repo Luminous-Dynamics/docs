@@ -66,6 +66,81 @@ Terra Lumina is a **production-grade renewable energy investment platform** buil
          └────────────────────────┘
 ```
 
+**Interactive Architecture Diagram:**
+
+```mermaid
+graph TB
+    subgraph "Client Layer"
+        Web[🌐 Web App<br/>Vue.js + TypeScript]
+        Mobile[📱 Mobile App<br/>React Native]
+    end
+
+    subgraph "API Layer"
+        Gateway[🚪 API Gateway<br/>Rate Limiting, Auth, CORS]
+    end
+
+    subgraph "Service Layer"
+        UserSvc[👤 User Service<br/>Auth, KYC, Profiles]
+        InvestSvc[💰 Investment Service<br/>Transactions, Portfolio]
+        ProjectSvc[🌞 Project Service<br/>Projects, Analytics]
+        PaymentSvc[💳 Payment Service<br/>Stripe, Crypto]
+        NotifySvc[🔔 Notification Service<br/>Email, Push, SMS]
+    end
+
+    subgraph "Data Layer"
+        Postgres[(🗄️ PostgreSQL<br/>Primary Data)]
+        TimescaleDB[(📊 TimescaleDB<br/>Time Series)]
+        Redis[(⚡ Redis<br/>Cache & Sessions)]
+    end
+
+    subgraph "Blockchain Layer"
+        Ethereum[⛓️ Ethereum<br/>Polygon Network<br/>Smart Contracts]
+    end
+
+    subgraph "External Services"
+        Onfido[🔍 Onfido<br/>KYC Verification]
+        Stripe[💳 Stripe<br/>Payment Processing]
+        AWS[☁️ AWS S3<br/>Document Storage]
+    end
+
+    Web --> Gateway
+    Mobile --> Gateway
+
+    Gateway --> UserSvc
+    Gateway --> InvestSvc
+    Gateway --> ProjectSvc
+
+    UserSvc --> Postgres
+    UserSvc --> Redis
+    UserSvc --> Onfido
+
+    InvestSvc --> Postgres
+    InvestSvc --> PaymentSvc
+    InvestSvc --> Ethereum
+
+    ProjectSvc --> Postgres
+    ProjectSvc --> TimescaleDB
+    ProjectSvc --> AWS
+
+    PaymentSvc --> Stripe
+    PaymentSvc --> Ethereum
+
+    NotifySvc --> Redis
+
+    style Web fill:#e1bee7
+    style Mobile fill:#e1bee7
+    style Gateway fill:#ce93d8
+    style UserSvc fill:#ba68c8
+    style InvestSvc fill:#ba68c8
+    style ProjectSvc fill:#ba68c8
+    style PaymentSvc fill:#ba68c8
+    style NotifySvc fill:#ba68c8
+    style Postgres fill:#ab47bc
+    style TimescaleDB fill:#ab47bc
+    style Redis fill:#ab47bc
+    style Ethereum fill:#9c27b0,color:#fff
+```
+
 ### Microservices Architecture
 
 Terra Lumina uses a **modular microservices architecture** for scalability and maintainability:

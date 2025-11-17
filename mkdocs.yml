@@ -125,6 +125,7 @@ nav:
     - terra-lumina/index.md
     - Getting Started: terra-lumina/getting-started.md
     - Investment Guide: terra-lumina/investment-guide.md
+    - ROI Calculator: terra-lumina/roi-calculator.md
     - Migration from Traditional: terra-lumina/migration-from-traditional.md
     - Comparisons: terra-lumina/comparisons.md
     - Technical Specs: terra-lumina/technical.md
@@ -136,6 +137,7 @@ nav:
     - luminous-nix/index.md
     - Quick Start: luminous-nix/quickstart.md
     - User Guide: luminous-nix/user-guide.md
+    - Command Builder: luminous-nix/command-builder.md
     - Migration Guide: luminous-nix/migration-guide.md
     - Comparisons: luminous-nix/comparisons.md
     - Advanced Features: luminous-nix/advanced.md
